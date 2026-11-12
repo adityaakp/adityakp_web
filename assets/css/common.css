@@ -1384,7 +1384,6 @@ header .global-nav__sns a:last-child {
 .image--contact {
   background: url(../img/cat-working.png) no-repeat center;
   background-size: contain;
-  width: 39%;
 }
 .image .page-num {
   position: absolute;
