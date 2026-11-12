@@ -30,11 +30,14 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Priority hint for the initial hero heading (local font). -->
+  <link rel="preload" href="assets/font/Futura-Med.woff" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="assets/css/jquery.fullPage.css">
   <link rel="stylesheet" href="assets/css/common.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap">
-  <link rel="stylesheet" href="awwwards.css">
+  <link rel="stylesheet" media="print" onload="this.media='all'" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+  <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap"></noscript>
   <script
     type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://adityakhawandiputra.netlify.app/#website","url":"https://adityakhawandiputra.netlify.app/","name":"Aditya Khawandi Putra | Portfolio","publisher":{"@id":"https://adityakhawandiputra.netlify.app/#person"}},{"@type":"Person","@id":"https://adityakhawandiputra.netlify.app/#person","name":"Aditya Khawandi Putra","url":"https://adityakhawandiputra.netlify.app/","image":"https://adityakhawandiputra.netlify.app/assets/img/portrait.jpg","jobTitle":["UI/UX Designer","Frontend Developer"],"description":"UI/UX designer and frontend developer focused on intuitive websites, mobile applications and digital product interfaces.","knowsAbout":["User Interface Design","User Experience Design","Frontend Development","Web Design","Mobile App Design"],"sameAs":["https://www.linkedin.com/in/aditya-khawandi-putra-6b5942201/","https://github.com/adityaakp","https://dribbble.com/adityaakp","https://www.instagram.com/adityaa.kp/"]}]}</script>
   <meta name="google-site-verification" content="MmafqC-R2kkWTaAnskX8s0cwDNiHVPFN6f6L2gL5Wh8" />
@@ -99,7 +102,7 @@
             <div class="title title--top">
               <h1 class="title__text js-letter">Aditya<br>Khawandi<br>Putra</h1>
               <div class="border js-letter"><span></span><span class="js-letter"></span></div>
-              <p class="title__lead js-letter">FRONTEND & UI/UX</p>
+              <p class="title__lead js-letter">UI/UX & FRONTEND</p>
             </div>
             <p class="hero-caption js-letter">Designing intuitive digital experiences through thoughtful interfaces and
               frontend development.</p>
@@ -122,7 +125,7 @@
                   <div class="cloud cloud--front2 js-moon"><img src="assets/img/cloud2.svg" alt="" aria-hidden="true">
                   </div>
                 </div>
-                <div class="moon__back layer" data-depth="0.5"><img class="js-moon" src="assets/img/moon.svg" alt=""
+                <div class="moon__back layer" data-depth="0.5"><img class="js-moon" src="assets/img/moon.svg" width="545" height="545" fetchpriority="high" alt=""
                     aria-hidden="true"></div>
                 <div class="moon__front layer" data-depth="0.7">
                   <div class="cloud cloud--front3 js-moon"><img src="assets/img/cloud3.svg" alt="" aria-hidden="true">

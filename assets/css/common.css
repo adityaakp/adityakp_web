@@ -1384,6 +1384,7 @@ header .global-nav__sns a:last-child {
 .image--contact {
   background: url(../img/cat-working.png) no-repeat center;
   background-size: contain;
+  width: 39%;
 }
 .image .page-num {
   position: absolute;
@@ -2555,5 +2556,35 @@ button:focus-visible {
   }
   #fp-nav {
     bottom: 12px;
+  }
+}
+
+/* ===========================================================
+   SAFE LCP OPTIMIZATION — 2026-11-12
+   Original PNG rules above remain as native CSS fallback.
+   Modern browsers select the small WebP images below.
+   =========================================================== */
+@supports (
+  background-image: image-set(url("../img/mutawwif.webp") type("image/webp"))
+) {
+  .image--works,
+  .page-top .image__reile {
+    background-image: image-set(
+      url("../img/mutawwif.webp") type("image/webp"),
+      url("../img/mutawwif.png") type("image/png")
+    );
+  }
+  .image--about,
+  .page-top .image__about {
+    background-image: image-set(
+      url("../img/246shots_so.webp") type("image/webp"),
+      url("../img/246shots_so.png") type("image/png")
+    );
+  }
+  .image--contact {
+    background-image: image-set(
+      url("../img/cat-working.webp") type("image/webp"),
+      url("../img/cat-working.png") type("image/png")
+    );
   }
 }

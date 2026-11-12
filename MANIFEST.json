@@ -1,0 +1,32 @@
+{
+  "files": [
+    "README-PATCH-LCP.md",
+    "index.html",
+    "assets/js/common.min.js",
+    "assets/img/cat-working.webp",
+    "assets/img/mutawwif.webp",
+    "assets/img/246shots_so.webp",
+    "assets/css/common.css"
+  ],
+  "images": [
+    {
+      "asset": "mutawwif",
+      "original_bytes": 1968965,
+      "webp_bytes": 143884,
+      "saved_percent": 92.7
+    },
+    {
+      "asset": "246shots_so",
+      "original_bytes": 1363012,
+      "webp_bytes": 131126,
+      "saved_percent": 90.4
+    },
+    {
+      "asset": "cat-working",
+      "original_bytes": 276617,
+      "webp_bytes": 37084,
+      "saved_percent": 86.6
+    }
+  ],
+  "gsc_in_html": true
+}
